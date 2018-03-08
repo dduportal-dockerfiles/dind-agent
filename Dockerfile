@@ -16,9 +16,11 @@ ENV JENKINS_USER_HOME=${jenkins_user_home} \
 
 RUN apk add --no-cache \
   bash \
+  bats \
   curl \
   ca-certificates \
   git \
+  make \
   openjdk8 \
   py-pip \
   unzip \
