@@ -27,6 +27,7 @@ RUN apk add --no-cache \
   git \
   make \
   openjdk8 \
+  openssh-client \
   py-pip \
   unzip \
   tar \
