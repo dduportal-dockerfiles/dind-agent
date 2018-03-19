@@ -29,6 +29,7 @@ RUN apk add --no-cache \
   openjdk8 \
   openssh-client \
   py-pip \
+  rsync \
   unzip \
   tar \
   tini
